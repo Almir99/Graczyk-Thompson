@@ -1,0 +1,142 @@
+.header__cover--img{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.342)), url("../img/sell-images/header-background.png");
+}
+
+.navigation__content{
+    top: 50%;
+}
+
+.team{
+    margin: 10rem 0;
+}
+
+.team__left{
+    background-image: url("../img/sell-images/about.png");
+}
+
+.team__right{
+    display: flex;
+}
+
+.team article h1.heading-1.medium{   
+    margin: 10rem 0 0;
+}
+
+.author-contact{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.name{
+    flex: 1 30rem;
+    display: flex;
+    padding: 5rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name__img{
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.name__img img{
+    width: 100%;
+}
+
+.heading-2.name{
+    padding: 3rem 0 0;
+}
+
+.heading-4{
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.heading-4.email{
+    font-size: 2.3rem;
+    padding: 0 0 1rem;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form__box{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+    width: 100%;
+}
+
+.contact-form__box input{
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #8b8d8f;
+}
+
+.contact_form__box--required{
+    color: red;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+.contact_form__box--required span{
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+
+.contact-form__box textarea{
+    max-width: 100%;
+    outline: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #8b8d8f;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-weight: 500; 
+}
+
+textarea::placeholder {
+    color: #8b8d8f;
+    font-size: 2.5rem;
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 400; 
+  }
+
+.contact-button{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.review .review__customer{
+    width: 90%;
+}
+
+.review__customer--item{
+    flex: 1 40rem;
+}
+
+
+.stars i{
+    color: #b1935c;
+}
+
+
+.footer__contact.sell{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.089)), url("../img/home-images/contact-img.png");
+}

@@ -1,5 +1,5 @@
 .header__cover--img{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.473)), url("../img/rent-images/header-background.png");
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.096)), url("../img/buy-images/header-background.png");
 }
 
 .heading{
@@ -61,15 +61,6 @@
     background-image: url("../img/buy-images/property-6.png");
 }
 
-
-
-.footer__contact.rent{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.089)), url("../img/rent-images/contact-img.png");
-}
-
-.box__text--info{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.footer__contact.buy{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.089)), url("../img/buy-images/contact-img.png");
 }
